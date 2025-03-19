@@ -39,6 +39,7 @@ Our tool leverages **natural language processing (NLP)** to analyze reviews by:
 
 ## Dataset Preparation
 ### Pre-word Segmentation (For Non-English Data)
+- Use the Raw data with only reviews in it
 Use the script:
 ```
 https://github.com/yangheng95/ABSADatasets/blob/v1.2/DPT/pre_word_segment_for_non_english_data.py
@@ -53,13 +54,10 @@ The segmented data is automatically annotated and split into training, validatio
 | train.csv | 70% of original data |
 | valid.csv | 15% of original data |
 | test.csv | 15% of original data |
-| train.csv.apc | Train data in APC format |
-| test.csv.apc | Test data in APC format |
-| valid.csv.apc | Validation data in APC format |
 
 ### Auto-Annotation and ATEPC Data preparation
 ### make_ATC_dataset.py
-This script processes raw review datasets and prepares them for aspect-term extraction.
+This script processes raw review datasets which are segmented and prepares them for aspect-term extraction.
 #### Usage:
 ```bash
 python make_ATC_dataset.py
