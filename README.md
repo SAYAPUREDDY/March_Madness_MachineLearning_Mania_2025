@@ -129,21 +129,14 @@ python overall_analysis.py
 
 ## Streamlit GUI Dashboard
 
-
-- Toggle various checkboxes to generate visualizations.
+- Enter a **placeId** to retrieve sentiment insights.
 - View sentiment trends for specific locations.
 
 ### Run the Dashboard:
 ```bash
 streamlit run gui.py
 ```
-- Enter a **placeId** to retrieve sentiment insights.
-  
 
-### Install Dependencies
-```bash
-pip install requirements.txt
-```
 
 ### Dataset Structure
 1. **store_aspect_sentiment_analysis.csv** - Aggregated sentiment counts per store.
