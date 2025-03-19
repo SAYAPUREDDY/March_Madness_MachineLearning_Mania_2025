@@ -129,8 +129,7 @@ python overall_analysis.py
 
 ## Streamlit GUI Dashboard
 
-### Features:
-- Enter a **placeId** to retrieve sentiment insights.
+
 - Toggle various checkboxes to generate visualizations.
 - View sentiment trends for specific locations.
 
@@ -138,6 +137,8 @@ python overall_analysis.py
 ```bash
 streamlit run gui.py
 ```
+- Enter a **placeId** to retrieve sentiment insights.
+  
 
 ### Install Dependencies
 ```bash
